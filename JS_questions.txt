@@ -1,0 +1,35 @@
+// In Javascript
+// Write a function that accepts 2 arguments, where both arguments are numbers and returns the sum of those two numbers.
+// sum(4, 3) => 7
+function addTwoNum(x,y) {
+return x+y;
+}
+
+
+// Below, we have an array of movie objects
+// Using Javascript, loop through each object in the array
+// and console.log the movie title of each movie
+
+var bestMovies = [ { title: 'Star Wars' }, { title: 'Top Gun' }, { title: 'The Notebook' } ]
+for (let i = 0; i < bestMovies.length; i++) {
+return bestMovies[i].title;
+}
+
+
+// In JavaScript
+// Write a function that takes 2 arguments - an array of numbers and a number
+// And returns true if the array contains the number and false otherwise
+// Example:
+// foo([2,4,7],7) would return true
+// foo([2,4,5],7) would return false
+function foo(arr, num) {
+// loop through the array
+// if num matches any element return true
+// at the end of the loop return false if number not found
+let i = 0;
+if (i < 0) {
+return true;
+} else {
+return false;
+}
+}
